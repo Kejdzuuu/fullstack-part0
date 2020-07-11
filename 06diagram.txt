@@ -1,0 +1,13 @@
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over server:
+server receives json payload
+with data about new note
+end note
+
+server-->browser: {"message":"note created"}
+
+note over browser:
+browser receives json payload
+with note data to render
+end note
